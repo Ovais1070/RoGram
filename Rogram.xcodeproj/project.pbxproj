@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		51CB98A32C003148007A09C6 /* RogramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98A22C003148007A09C6 /* RogramApp.swift */; };
-		51CB98A52C003148007A09C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98A42C003148007A09C6 /* ContentView.swift */; };
+		51CB98A52C003148007A09C6 /* RoHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98A42C003148007A09C6 /* RoHomePageView.swift */; };
 		51CB98A72C00314B007A09C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CB98A62C00314B007A09C6 /* Assets.xcassets */; };
 		51CB98AA2C00314B007A09C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CB98A92C00314B007A09C6 /* Preview Assets.xcassets */; };
 		51CB98B42C00314C007A09C6 /* RogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98B32C00314C007A09C6 /* RogramTests.swift */; };
 		51CB98BE2C00314C007A09C6 /* RogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98BD2C00314C007A09C6 /* RogramUITests.swift */; };
 		51CB98C02C00314C007A09C6 /* RogramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98BF2C00314C007A09C6 /* RogramUITestsLaunchTests.swift */; };
+		51CB98CF2C0034DE007A09C6 /* RoHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98CE2C0034DE007A09C6 /* RoHomeViewModel.swift */; };
+		51CB98D22C003E0E007A09C6 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98D12C003E0E007A09C6 /* PostsModel.swift */; };
+		51CB98D82C00455A007A09C6 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98D72C00455A007A09C6 /* SplashView.swift */; };
+		51CB98DA2C004C23007A09C6 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98D92C004C23007A09C6 /* PostsView.swift */; };
+		51CB98DC2C004CBE007A09C6 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98DB2C004CBE007A09C6 /* ImageLoader.swift */; };
+		51CB98DE2C004D10007A09C6 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98DD2C004D10007A09C6 /* URLImageView.swift */; };
+		51CB98E02C0063EF007A09C6 /* FullPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB98DF2C0063EF007A09C6 /* FullPostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		51CB989F2C003148007A09C6 /* Rogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CB98A22C003148007A09C6 /* RogramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogramApp.swift; sourceTree = "<group>"; };
-		51CB98A42C003148007A09C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51CB98A42C003148007A09C6 /* RoHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoHomePageView.swift; sourceTree = "<group>"; };
 		51CB98A62C00314B007A09C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CB98A92C00314B007A09C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51CB98AF2C00314C007A09C6 /* RogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,13 @@
 		51CB98B92C00314C007A09C6 /* RogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CB98BD2C00314C007A09C6 /* RogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogramUITests.swift; sourceTree = "<group>"; };
 		51CB98BF2C00314C007A09C6 /* RogramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51CB98CE2C0034DE007A09C6 /* RoHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoHomeViewModel.swift; sourceTree = "<group>"; };
+		51CB98D12C003E0E007A09C6 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		51CB98D72C00455A007A09C6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		51CB98D92C004C23007A09C6 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		51CB98DB2C004CBE007A09C6 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		51CB98DD2C004D10007A09C6 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		51CB98DF2C0063EF007A09C6 /* FullPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,11 @@
 		51CB98A12C003148007A09C6 /* Rogram */ = {
 			isa = PBXGroup;
 			children = (
+				51CB98E12C006F4F007A09C6 /* Utilties */,
 				51CB98A22C003148007A09C6 /* RogramApp.swift */,
-				51CB98A42C003148007A09C6 /* ContentView.swift */,
+				51CB98D02C003DFA007A09C6 /* Model */,
+				51CB98CC2C0031E8007A09C6 /* ViewModel */,
+				51CB98CD2C0031F2007A09C6 /* Views */,
 				51CB98A62C00314B007A09C6 /* Assets.xcassets */,
 				51CB98A82C00314B007A09C6 /* Preview Content */,
 			);
@@ -125,6 +142,42 @@
 				51CB98BF2C00314C007A09C6 /* RogramUITestsLaunchTests.swift */,
 			);
 			path = RogramUITests;
+			sourceTree = "<group>";
+		};
+		51CB98CC2C0031E8007A09C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51CB98CE2C0034DE007A09C6 /* RoHomeViewModel.swift */,
+				51CB98DB2C004CBE007A09C6 /* ImageLoader.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		51CB98CD2C0031F2007A09C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51CB98A42C003148007A09C6 /* RoHomePageView.swift */,
+				51CB98D72C00455A007A09C6 /* SplashView.swift */,
+				51CB98D92C004C23007A09C6 /* PostsView.swift */,
+				51CB98DD2C004D10007A09C6 /* URLImageView.swift */,
+				51CB98DF2C0063EF007A09C6 /* FullPostView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51CB98D02C003DFA007A09C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51CB98D12C003E0E007A09C6 /* PostsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51CB98E12C006F4F007A09C6 /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51CB98A52C003148007A09C6 /* ContentView.swift in Sources */,
+				51CB98DC2C004CBE007A09C6 /* ImageLoader.swift in Sources */,
+				51CB98CF2C0034DE007A09C6 /* RoHomeViewModel.swift in Sources */,
+				51CB98D22C003E0E007A09C6 /* PostsModel.swift in Sources */,
+				51CB98DA2C004C23007A09C6 /* PostsView.swift in Sources */,
+				51CB98D82C00455A007A09C6 /* SplashView.swift in Sources */,
+				51CB98A52C003148007A09C6 /* RoHomePageView.swift in Sources */,
+				51CB98E02C0063EF007A09C6 /* FullPostView.swift in Sources */,
+				51CB98DE2C004D10007A09C6 /* URLImageView.swift in Sources */,
 				51CB98A32C003148007A09C6 /* RogramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +520,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
