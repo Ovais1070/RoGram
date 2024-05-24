@@ -16,6 +16,7 @@ struct RoHomePageView: View {
     @StateObject var vm = RoHomeViewModel()
     
     
+    
     var body: some View {
         
             ZStack {
@@ -41,6 +42,7 @@ struct RoHomePageView: View {
                     
                     Spacer()
                 }
+                .background(.white)
                 .fullScreenCover(isPresented: $openImage) {
                     ZStack {
                         Color.black.opacity(0.8).edgesIgnoringSafeArea(.all)

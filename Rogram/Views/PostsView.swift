@@ -55,6 +55,7 @@ struct PostsView: View {
                 
             }
             .frame(maxWidth: UIScreen.main.bounds.width)
+            .background(.white)
             .onTapGesture {
                 self.onTap(self.posts)
             }

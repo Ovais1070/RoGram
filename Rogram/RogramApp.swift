@@ -12,6 +12,7 @@ struct RogramApp: App {
     var body: some Scene {
         WindowGroup {
             RoHomePageView(showSplash: .constant(true), openImage: false)
+                .environment(\.colorScheme, .light)
         }
     }
 }
